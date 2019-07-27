@@ -1,0 +1,6 @@
+[submodule "PiP2Serial/lib"]
+	path = PiP2Serial/lib
+	url = https://github.com/Arnold-n/P1P2Serial.git
+[submodule "P1P2Serial/lib/P1P2Serial"]
+	path = P1P2Serial/lib/P1P2Serial
+	url = https://github.com/Arnold-n/P1P2Serial.git

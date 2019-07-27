@@ -1,0 +1,4 @@
+[submodule "lib/P1P2Serial"]
+	path = lib/P1P2Serial
+	url = https://github.com/Arnold-n/P1P2Serial.git
+	branch = master
