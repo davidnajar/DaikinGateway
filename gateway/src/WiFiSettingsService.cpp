@@ -16,9 +16,9 @@ void WiFiSettingsService::begin() {
 }
 
 void WiFiSettingsService::readFromJsonObject(JsonObject& root){
-    _ssid = root["ssid"] | "daikin_e829";
-    _password = root["password"] | "1234";
-    _hostname = root["hostname"] | "daikin.gw";
+    _ssid = root["ssid"] | "";
+    _password = root["password"] | "";
+    _hostname = root["hostname"] | "";
     _staticIPConfig = root["static_ip_config"] | false;
 
     // extended settings

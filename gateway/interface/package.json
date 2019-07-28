@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build && rm -rf ../data/www && cp -r build ../data/www",
+    "build": "react-app-rewired build &&  robocopy build ..\\data\\www /mir",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject"
   },
